@@ -12,11 +12,7 @@ This change strips every functions. Added `--detect` flag after input file to de
 
 ```bash
 npm install knayi-cli -g
-knayi-cli sample.txt
-```
-
-```bash
-knayi-cli sample.txt --detect
+knayi-cli '<any string here!>' --detect // zawgyi (or) unicode depending on string encoding
 ```
 
 ## License
